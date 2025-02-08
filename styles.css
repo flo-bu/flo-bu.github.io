@@ -1,17 +1,23 @@
 body {
-    background-color: #BFBFBF;
+    background-color: #FFDD4D;
     }
   h1 {
-    font-family:Arial;text-align:center;color:#ffdd4d;text-shadow: 3px 3px #000000;
+    font-family:Arial;text-align:center;color:#DD0393;text-shadow: 3px 3px #000000;
     }
   p {
-    font-family:Arial;text-align:center;color:#000000;
+    font-family:Arial;text-align:center;color:#BFBFBF;
     }
   a.yellow {
     color:#ffdd4d;background-color:transparent;text-decoration:none;
     }
   a.black {
     color:#000000;background-color:transparent;text-decoration:none;
+    }
+  a.pink {
+    color:#DD0393;background-color:transparent;text-decoration:none;
+    }
+  a.grey {
+    color:#BFBFBF;background-color:transparent;text-decoration:none;
     }
   img {
     display: block;
@@ -37,4 +43,40 @@ body {
     border-style:solid;
     border-color: #ffdd4d;
     padding: 5px;
+    }
+
+
+  .sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #FFDD4F;
+    overflow-x: hidden;
+    padding-top: 20px;
+    }
+    
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #BFBFBF;
+    display: block;
+    }
+    
+  .sidenav a:hover {
+    color: #f1f1f1;
+    }
+    
+  .main {
+    margin-left: 160px;
+    font-size: 28px;
+    padding: 0px 10px;
+    }
+    
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
     }
