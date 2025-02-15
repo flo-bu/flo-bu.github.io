@@ -1,23 +1,35 @@
 body {
-    background-color: #FFDD4D;
+  font-family: system-ui;  
+  background-color: #B6DB79;
     }
   h1 {
-    font-family:Arial;text-align:center;color:#DD0393;text-shadow: 3px 3px #000000;
+    text-align:center;
+    color:#B585CF;
+    text-shadow: 2px 2px #000000;
     }
   p {
-    font-family:Arial;text-align:center;color:#818181;
+    text-align:center;
+    color:#818181;
     }
   a.yellow {
-    color:#ffdd4d;background-color:transparent;text-decoration:none;
+    color:#ffdd4d;
+    background-color:transparent;
+    text-decoration:none;
     }
   a.black {
-    color:#000000;background-color:transparent;text-decoration:none;
+    color:#000000;
+    background-color:transparent;
+    text-decoration:none;
     }
   a.pink {
-    color:#DD0393;background-color:transparent;text-decoration:none;
+    color:#B585CF;
+    background-color:transparent;
+    text-decoration:none;
     }
   a.grey {
-    color:#BFBFBF;background-color:transparent;text-decoration:none;
+    color:#BFBFBF;
+    background-color:transparent;
+    text-decoration:none;
     }
   img {
     display: block;
@@ -27,37 +39,65 @@ body {
     border: 1px solid #818181;
   }
 
-  .sidenav {
-    height: 100%;
-    width: 250px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #FFDD4F;
-    overflow-x: hidden;
-    padding-top: 20px;
-    }
-    
-  .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    }
-    
-  .sidenav a:hover {
-    color: #828282;
-    }
-    
+.topnav {
+  background-color: #B585CF;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-shadow: 1px 1px #000000;
+  font-size: 24px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #0F85A6;
+  color: #BFBFBF;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  color: #0F85A6;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+     
   .main {
-    margin-left: 160px;
+    margin-left: 0px;
     font-size: 28px;
     padding: 0px 10px;
     }
     
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-    }
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+
+ }
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+  
+ } 
